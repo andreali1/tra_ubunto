@@ -18,8 +18,12 @@ elif a == 4 :
 	d = int(d)
 	print("el resultado de la multiplicacion es --> ", d)
 elif a == 3 :
-	d = b / c 
-	print("el resultado de la division es ---> ", d )
+	if c < b :
+		print("no se puede deividir es menor a la unidad ")
+	else:
+		d = b / c
+		print("el resultado de la division es ---> ", d )
+
 else:
 	print("el numeor de operacion ingresada no exixte")
 
